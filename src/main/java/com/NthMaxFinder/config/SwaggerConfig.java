@@ -16,7 +16,7 @@ public class SwaggerConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.NthMaxFinder")) // Укажите ваш пакет
+                .apis(RequestHandlerSelectors.basePackage("com.NthMaxFinder"))
                 .paths(PathSelectors.any())
                 .build();
     }
