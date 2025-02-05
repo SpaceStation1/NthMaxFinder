@@ -25,7 +25,6 @@ public class NthMaxNumberFinderController {
     @PostMapping("/maxNumber/fetch")
     @ApiOperation(value = "Get the N-th maximum number from an Excel file")
     public ResponseEntity<SuccessResponse> getNthMaxNumber(@RequestBody NumberRequest request) {
-
         SuccessResponse response = responseBuildHelper.buildResponse(nthMaxNumberFinderService.findNthMax(request));
         return ResponseEntity.ok(response);
     }
