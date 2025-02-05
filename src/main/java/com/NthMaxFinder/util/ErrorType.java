@@ -10,7 +10,6 @@ import org.springframework.http.HttpStatus;
 public enum ErrorType {
 
     VALIDATION_EXCEPTION(HttpStatus.BAD_REQUEST),
-//    BAD_REQUEST(HttpStatus.BAD_REQUEST),
     PATH_NOT_FOUND(HttpStatus.NOT_FOUND);
 
     private final HttpStatus status;
