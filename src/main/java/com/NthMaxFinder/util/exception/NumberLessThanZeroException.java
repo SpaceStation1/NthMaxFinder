@@ -1,6 +1,5 @@
 package com.NthMaxFinder.util.exception;
 
-
 import com.NthMaxFinder.util.ErrorType;
 
 
