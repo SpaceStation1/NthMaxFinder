@@ -2,7 +2,6 @@ package com.NthMaxFinder.util.exception;
 
 import com.NthMaxFinder.util.ErrorType;
 
-
 public class FileNotFoundException extends BaseInfoServiceException {
 
     public FileNotFoundException() {
