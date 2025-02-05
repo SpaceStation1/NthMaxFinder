@@ -10,10 +10,8 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import javax.servlet.http.HttpServletRequest;
 
-
 @RestControllerAdvice
 public class GlobalExceptionHandler {
-
 
     @ExceptionHandler(NumberLessThanZeroException.class)
     public ResponseEntity<ErrorInfoResponse> handleNumberLessThanZeroException(
@@ -34,7 +32,6 @@ public class GlobalExceptionHandler {
                                                                          FileNotFoundException ex) {
         return getErrorInfo(req, ex, ErrorType.PATH_NOT_FOUND);
     }
-
 
     private ResponseEntity<ErrorInfoResponse> getErrorInfo(HttpServletRequest req, Exception e, ErrorType errorType) {
         return ResponseEntity.status(errorType.getStatus())
