@@ -14,20 +14,20 @@
 ## Use cases
 
 ### Swagger
-* open http://localhost:8080/swagger-ui/
-* select an available endpoint 
-* edit filePath and n variables 
-* execute
+* Open http://localhost:8080/swagger-ui/
+* Select an available endpoint 
+* Edit filePath and n variables 
+* Execute
 
 ### Postman
-* create new POST request
-* add http://localhost:8080/api/maxNumber/fetch
-* add raw body like 
-'''
+* Create new POST request
+* Add http://localhost:8080/api/maxNumber/fetch
+* Add raw body like 
+```
 {
     "filePath": "G:/Downloads/NNN.xlsx",
     "n": 1
 }
-'''
+```
 
 
