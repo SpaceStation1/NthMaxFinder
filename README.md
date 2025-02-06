@@ -2,6 +2,7 @@
 
 ## How to Run 
 
+### Launch from cmd
 * Clone this repository 
 * Open cmd, go to the project folder
 * Enter "mvn exec:java -Dexec.mainClass="com.NthMaxFinder.NThMaximumFinderApplication"
